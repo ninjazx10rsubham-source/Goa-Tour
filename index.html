@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goa Tourism</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- FLOATING ICONS -->
+
+<div class="floating-icons">
+<span>🌴</span>
+<span>🌊</span>
+<span>☀️</span>
+<span>🏖</span>
+</div>
+
+<header>
+
+<h2>Goa Tourism</h2>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="beaches.html">Beaches</a>
+<a href="travel-guide.html">Travel Guide</a>
+</nav>
+
+<button id="modeToggle">🌙</button>
+
+</header>
+
+<!-- VIDEO HERO -->
+
+<section class="video-hero">
+
+<video autoplay muted loop playsinline>
+<source src="videos/goa.mp4" type="video/mp4">
+</video>
+
+<div class="video-text">
+<h1>Discover Goa</h1>
+<p>Beaches • Culture • Adventure</p>
+</div>
+
+</section>
+
+<!-- TOP ATTRACTIONS -->
+
+<section class="features">
+
+<h2>Top Attractions</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="images/baga.jpg">
+<h3>Baga Beach</h3>
+<p>Famous beach with nightlife.</p>
+</div>
+
+<div class="card">
+<img src="images/aguada.jpg">
+<h3>Fort Aguada</h3>
+<p>Historic Portuguese fort.</p>
+</div>
+
+<div class="card">
+<img src="images/dudhsagar.jpg">
+<h3>Dudhsagar Falls</h3>
+<p>Beautiful waterfall.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- WATER SPORTS -->
+
+<section class="activities">
+
+<h2>Water Sports</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="images/parasailing.jpg">
+<h3>Parasailing</h3>
+<p>Fly above the Arabian Sea.</p>
+<button>Book Now</button>
+</div>
+
+<div class="card">
+<img src="images/jetski.jpg">
+<h3>Jet Ski</h3>
+<p>Enjoy speed on water.</p>
+<button>Book Now</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOD -->
+
+<section class="features">
+
+<h2>Goan Food</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="images/fishcurry.jpg">
+<h3>Fish Curry</h3>
+</div>
+
+<div class="card">
+<img src="images/bebinca.jpg">
+<h3>Bebinca Dessert</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- REVIEWS -->
+
+<section class="reviews">
+
+<h2>Tourist Reviews</h2>
+
+<div class="review-card">
+Amazing beaches and nightlife – Rahul
+</div>
+
+<div class="review-card">
+Best vacation destination in India – Priya
+</div>
+
+</section>
+
+<!-- WAVE FOOTER -->
+
+<div class="wave">
+<svg viewBox="0 0 1440 320">
+<path fill="#0099ff"
+d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,181C672,171,768,181,864,176C960,171,1056,149,1152,160C1248,171,1344,213,1392,234L1440,256L1440,320L0,320Z">
+</path>
+</svg>
+</div>
+
+<footer>
+
+<p>Total Visitors: <span id="counter"></span></p>
+<p>© Goa Tourism Project</p>
+
+</footer>
+
+<!-- CHATBOT -->
+
+<div id="chatbot-button">💬</div>
+
+<div id="chatbot">
+
+<div class="chat-header">
+Goa Assistant
+<span id="close-chat">✖</span>
+</div>
+
+<div id="chat-messages"></div>
+
+<div class="chat-input">
+<input type="text" id="user-input" placeholder="Ask about Goa">
+<button onclick="sendMessage()">Send</button>
+</div>
+
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/chatbot.js"></script>
+
+</body>
+</html>
